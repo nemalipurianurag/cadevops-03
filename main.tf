@@ -31,7 +31,7 @@ resource "google_privateca_ca_pool_iam_member" "policy" {
 
 # Create a CA pool selecting devops tier
 resource "google_privateca_ca_pool" "example_ca_pool_devops" {
-  name     = "ca-pool-devops"
+  name     = "my-pool53"
   tier     = "DEVOPS"
   location = "us-central1"
 }
